@@ -3,7 +3,6 @@ body{
     padding: 0%;
 }
 footer {
-  background-color: rgb(220, 225, 229);
   position: relative;
   text-align: center;
   padding-top: 20px;
@@ -49,6 +48,7 @@ ul{
 
 /*map*/
 #map-container{
-  width: 700px;
-  height: 500px;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 20px;
 }
