@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="indexfavicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/24bc43ef2c.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-default navbar-dark bg-primary">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">edureka!</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="our story.html" class="nav-link">ourstory</a>
+            </li>
+            <li class="nav-item">
+              <a href="courses.html" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="signup.html" class="nav-link">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a href="faq.html" class="nav-link">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+
+    <!--carousel portion-->
+    <div
+      id="mycarousel"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="0"></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2" class="active"></li>
+        <li data-target="#mycarousel" data-slide-to="3"></li>
+        <li data-target="#mycarousel" data-slide-to="4"></li>
+        <li data-target="#mycarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img id="carouselimg" src="image1.jpg" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carouselimg" src="image4.jpg" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img id="carouselimg" src="image2.jpg" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carouselimg" src="image5.jpg" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carouselimg" src="image3.webp" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carouselimg" src="image6.jpg" alt="" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Advanced certified courses</h2>
+            <button type="button" class="btn btn-warning">Enroll now!</button>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!--carosel end-->
+
+    <!--grid portion-1 -->
+    <div class="container">
+      <!--part-1-->
+      <h3 class="text-center" style="margin-top: 40px; margin-bottom: 60px">
+        Online courses with 24x7 on demand support
+      </h3>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img id="grid1" src="gridimg3.png" alt="" />
+          <h4 class="text-center" style="margin-bottom: 60px">
+            Flexible schedule
+          </h4>
+        </div>
+        <div class="col-md-4">
+          <img id="grid1" src="gridimg1.png" alt="" />
+          <h4 class="text-center" style="margin-bottom: 60px">Live classes</h4>
+        </div>
+        <div class="col-md-4">
+          <img id="grid1" src="gridimg2.png" alt="" />
+          <h4 class="text-center" style="margin-bottom: 60px">24x7 support</h4>
+        </div>
+      </div>
+          <!--part-2-->
+      <h3 class="text-center" style="margin-top: 40px; margin-bottom: 60px">Trending courses</h3>
+    <div class="row" id="grid2div">
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="gridcc.jpg" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>Cloud computing</h5>
+            <p>Skill cloud computing</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Devops-->
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="griddev.jpeg" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>Devops</h5>
+            <p>Master Devops</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--BI and Visualizations-->
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="gridbi.png" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>BI and Visualizations</h5>
+            <p>Upgrade skills</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Cyber security-->
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="gridcs.png" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>Cyber security</h5>
+            <p>Master Cyber security</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Data science-->
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="gridds.jpg" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>Data science</h5>
+            <p>Skill Data science</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Programming and framework-->
+      <div class="col-md-2">
+        <div class="img-thumbnail" style="height: 330px;">
+          <img src="gridfr.jpeg" alt="not found" style="width: 150px; height: 140px;">
+          <div class="caption">
+            <h5>Programming and framework</h5>
+            <p>Skill Programming and framework</p>
+            <a href="#" class="btn btn-success">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--grid portion-1 -->
+
+    <!--social media-->
+    <div id="sm-cont" class="well" style="margin-top: 50px; margin-bottom: 50px; height: 100px;">
+      <ul class="social-media-menu">
+        <a href="https://www.facebook.com/" target="_blank"><i id="sm-icon" class="fa-brands fa-facebook-f"></i></a></li>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i id="sm-icon" class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i id="sm-icon" class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/login" target="_blank"><i id="sm-icon" class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.google.com/" target="_blank"><i id="sm-icon" class="fa-brands fa-google"></i></a>
+      </ul>
+  </div>
+    <!--social media-->
+
+    <!--footer portion-->
+    <footer>
+      Copyright &copy; 2015 Brain4ce Education Solutions Pvt. Ltd. All rights
+      reserved.<br />I agree to
+      <a href="#" data-toggle="modal" data-target="#termscond"
+        >Terms and conditions</a
+      >
+      <div
+        class="modal fade"
+        data-backdrop="static"
+        tabindex="-1"
+        id="termscond"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Terms and conditions</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Terms shall be governed by and construed in accordance with the
+                laws of the Republic of India and subject to the provisions of
+                arbitration set out herein, the courts at Bangalore shall have
+                exclusive jurisdiction in relation to any disputes arising out
+                of or in connection with these Terms.<br /><br /><input
+                  type="checkbox"
+                />
+                I agree to the terms and conditions
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Ok save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer end-->
+  </body>
+</html>
