@@ -24,7 +24,10 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-
+/*our story*/
+#ourstory_img{
+  width: 100%;
+}
 /*grid part 2*/
 #grid2div{
     row-gap: 10pxpx;
